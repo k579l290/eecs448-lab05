@@ -18,6 +18,11 @@ if (($posts->num_rows) == 0) {
 
 else {
   echo 'User: '.$users.'<br>';
+  echo '<style>
+    table, th, td, tr {
+      border: 1px solid black
+    }
+  </style>';
 	echo '<table><tr>';
 	echo '<td><b>Post_ID</b></td>';
 	echo '<td><b>Posts</b></td></tr>';
